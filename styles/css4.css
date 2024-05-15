@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+#inputclickevent {
+  width: 60%;
+  background: transparent;
+  border: none;
+}
+.darken {
+  background-color: rgba(0, 0, 0, 0.5); /* Màu nền tối với độ trong suốt 50% */
+}
+
+.input-brighten {
+  background-color: white; /* Đặt màu nền của trường input thành trắng khi được nhấp vào */
+}
+
+.button-darken {
+  filter: brightness(50%); /* Tối đi nút tìm kiếm khi input được nhấp vào */
+}
+.butnlogo {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+}
+.butnlogo:hover {
+  background-color: lightgray;
+  border-color: #ededed;
+}
+.divtimkiem {
+  width: 400px;
+  border-radius: 15px;
+  background-color: #ededed;
+  border: 1px solid #ededed;
+}
+
+.divcartbtn:hover {
+  color: red;
+}
+.divcartbtn {
+  font-size: 30px;
+  margin-left: -20px;
+  border: none;
+  background-color: white;
+}
+
+.divcart > i {
+  width: 15%;
+  height: auto;
+}

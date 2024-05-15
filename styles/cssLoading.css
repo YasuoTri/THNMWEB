@@ -1,0 +1,64 @@
+.preloading {
+  background-color: antiquewhite;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.title {
+  text-align: center;
+  color: #f8d082;
+  padding: 100px 50px 50px;
+}
+.title h3 {
+  opacity: 0.5;
+  color: #b51b75;
+}
+#loading {
+  --loading-value: 0%;
+  position: fixed; /* Đặt phần loading ở vị trí cố định */
+  top: 0; /* Khoảng cách từ trên xuống */
+  left: 0; /* Khoảng cách từ trái qua */
+  width: 100%; /* Chiều rộng chiếm toàn bộ trang */
+  height: 100%; /* Chiều cao chiếm toàn bộ trang */
+  z-index: 9999; /* Đảm bảo phần loading hiển thị trên tất cả các phần tử khác */
+}
+#loading::after {
+  background-image: conic-gradient(
+    #e65c19,
+    #e65c19 var(--loading-value),
+    transparent var(--loading-value)
+  );
+}
+#loading::before {
+  position: absolute;
+  top: 110px;
+  left: 350px;
+  width: calc(40% + 160px);
+  height: calc(40% + 160px);
+  content: "";
+  border-radius: 40%;
+  background-image: conic-gradient(
+    #e65c19,
+    #e65c19 var(--loading-value),
+    transparent var(--loading-value)
+  );
+  z-index: 1;
+}
+#value-show {
+  position: absolute;
+  top: 200px;
+  left: 400px;
+  width: calc(50% - 80px);
+  height: calc(50% - 80px);
+  border-radius: 40%;
+  background-color: #f8d082;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: black;
+}

@@ -1,0 +1,243 @@
+/*Danh Sach Cua Hang*/
+.divNgoai {
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  width: 100%;
+  height: 120px;
+}
+
+.div1 {
+  width: 100%;
+  height: 33%;
+  text-align: left;
+  background-color: #f1f3f4;
+  padding: 5px 20px;
+}
+.div2 {
+  padding: 5px 20px;
+  width: 100%;
+  height: 67%;
+}
+.div2 > div {
+  margin-top: 7px;
+}
+.div2 > div > a {
+  text-decoration: none;
+}
+.div2 > a > i {
+  color: #579aff;
+}
+/*Kien Thuc Dong Ho*/
+/*Ben trai*/
+.divTrai1 {
+  width: 100%;
+  height: 65%;
+}
+.divTrai1 > img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.divTrai2 {
+  background-color: #f8f8f8;
+  text-align: left;
+  padding: 10px;
+}
+.divTrai21 {
+  font-size: 18px;
+}
+.divTrai21 > a {
+  color: black;
+  text-decoration: none;
+}
+.divTrai21 > a:hover {
+  color: #0d6efd;
+}
+.divTrai22 {
+  font-size: 16px;
+  color: #a2a2a2;
+  margin-top: 2%;
+}
+.divTrai23 {
+  margin-top: 2%;
+  font-size: 16px;
+}
+@media screen and (max-width: 1399px) {
+  .divTrai21 {
+    font-size: 19px;
+  }
+  .divTrai22 {
+    font-size: 18px;
+    color: #a2a2a2;
+    margin-top: 3px;
+  }
+  .divTrai23 {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .divTrai1 {
+    width: 100%;
+    height: 75%;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .divTrai21 {
+    font-size: 18px;
+  }
+  .divTrai22 {
+    font-size: 16px;
+    color: #a2a2a2;
+    margin-top: 3px;
+  }
+  .divTrai23 {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .divTrai21 {
+    font-size: 22px;
+  }
+  .divTrai22 {
+    font-size: 20px;
+    color: #a2a2a2;
+    margin-top: 3px;
+  }
+  .divTrai23 {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 1199px) {
+}
+/*Ben Phai*/
+.divPhai1 {
+  width: 100%;
+  height: 100%;
+}
+.divPhai1 > img {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+.divPhai2 {
+  width: 100%;
+  height: 100%;
+  padding: 10px 10px;
+}
+.BorderRow {
+  border-radius: 10px;
+}
+.divPhai21 {
+  font-size: 18px;
+}
+.divPhai22 {
+  font-size: 14px;
+}
+@media screen and (max-width: 1299px) {
+  .divPhai21 {
+    font-size: 16px;
+  }
+  .divPhai22 {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .divPhai21 {
+    font-size: 18px;
+  }
+  .divPhai22 {
+    font-size: 12px;
+  }
+}
+.divPhai2 > a {
+  text-decoration: none;
+  color: black;
+}
+.divPhai2:hover > a > .divPhai21 {
+  color: blue;
+}
+/*Phan Last Footer*/
+.Policy {
+  font-weight: bold;
+  color: white;
+  width: 100%;
+}
+
+.imgCustom {
+  width: 80%;
+  height: 25%;
+}
+.Policy button {
+  font-size: 16px;
+}
+.Policy-list {
+  list-style-type: none;
+}
+.Policy-list > li {
+  color: white;
+  margin-top: 15px;
+  margin-left: -23px;
+}
+.SystemStore {
+  color: white;
+  font-weight: bold;
+}
+.SystemStore button {
+  font-size: 16px;
+}
+.SystemStoreList {
+  list-style-type: none;
+}
+.SystemStoreList > li {
+  color: white;
+  margin-top: 15px;
+  margin-left: -23px;
+  padding-bottom: 5px;
+  font-size: 16px;
+}
+.Logo-list {
+  list-style-type: none;
+}
+#ContenToggle4 {
+  clear: both;
+  width: 100%;
+}
+.Logo-list li {
+  color: white;
+  padding-top: 15px;
+  margin-left: -23px;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 991px) {
+  .imgCustom {
+    width: 100%;
+    height: 15%;
+  }
+  .SystemStore {
+    color: white;
+    font-weight: bold;
+  }
+  .SystemStoreList > li {
+    color: white;
+    margin-top: 15px;
+    padding-left: 0px;
+    padding-bottom: 5px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .imgCustom {
+    width: 100%;
+    height: 50%;
+  }
+  .Logo-list li {
+    color: white;
+    margin-top: 15px;
+    margin-left: -23px;
+    width: 50%;
+    height: 100%;
+  }
+}

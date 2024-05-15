@@ -1,0 +1,11 @@
+.BorderCustomThuongHieu {
+  width: 12%;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  float: left;
+  height: 40%;
+  margin-left: 15px;
+  margin-top: 15px;
+}

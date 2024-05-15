@@ -1,0 +1,32 @@
+.image-container {
+  position: relative;
+  width: 100%; /* Điều chỉnh kích thước theo mong muốn */
+  height: 300px; /* Điều chỉnh kích thước theo mong muốn */
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.5s ease-in-out; /* Tạo hiệu ứng mờ */
+}
+
+.second-image {
+  opacity: 0; /* Mặc định ảnh thứ 2 ẩn đi */
+}
+
+.image-container:hover .first-image {
+  opacity: 0; /* Khi hover, ảnh thứ nhất mờ đi */
+}
+
+.image-container:hover .second-image {
+  opacity: 1; /* Khi hover, ảnh thứ 2 hiển thị */
+}
+.card-title > center > a {
+  text-decoration: none;
+}
+.card-title > center > a:hover {
+  color: red;
+}
