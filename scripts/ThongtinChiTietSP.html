@@ -198,15 +198,16 @@
     <div class="container mt-4"> 
           <div class="row"> 
            <div class="col-sm-12 col-md-12 col-lg-6"> 
-<img src="/images/ImgChiTietSP/SP1/pic2.avif" style="border-radius: 15px;" class="img-fluid" alt="...">
+<img id="imgOf" src="/images/ImgChiTietSP/SP1/pic2.avif" style="border-radius: 15px;transition: ease-in;" class="img-fluid" alt="...">
            </div> 
+           <script src="ThongTinChiTietChuyenImg.js"></script>
            <div class="details col-sm-12 col-md-12 col-lg-6"> 
             <h3 class="product-title">
                 <span class="fs-2">Casio <br></span><span class="fs-5">Casio World Time AE-1200WHD-1AVDF – Nam – Quartz (Pin) – Mặt Số 45 mm x 42.1 mm, Bộ Bấm Giờ, Chống Nước 10 ATM
                 Mã Số Sản Phẩm:  AE-1200WHD-1AVDF</span></h3> 
             <div class="rating"> 
              <div class="stars"> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> 
-             </div> <span class="review-no">123 đánh giá</span>  <a><button class="btn btn-lg" type="button"><i class="fa-regular fa-heart"></i></button></a> 
+             </div> <span class="review-no">123 đánh giá</span>  <span class="ms-4"><i id="icon" class="fa-regular fa-heart fs-4" onclick="AlterIcon()"></i></span> 
             </div> 
             <p class="product-description">Đồng hồ nam Casio AE-1200WHD-1AVDF thiết kế mặt số LCD vuông kích thước 45 mm x 42.1 mm phong cách thể thao với những tính năng hiện đại tiện dụng, kết hợp với dây đeo bằng kim loại đem lại vẻ mạnh mẽ cá tính dành cho phái nam.</p> 
             <h4 class="price text-warning">Giá bán: 1.506.000 ₫</h4> 
@@ -214,7 +215,10 @@
             </p> 
             <h5 class="sizes">Kích cỡ: <span class="size">s</span> <span class="size">m</span> <span class="size">l</span> <span class="size">xl</span> 
             </h5> 
-            <div class="colors">Màu: <span class="color orange"></span> <span class="color green"></span> <span class="color blue"></span> 
+            <div class="colors">Màu: 
+            <button class="btn" id="img1" style="border: none;margin-left: 25px;" onclick="AlterImg1()"><span class="color orange"></span></button> 
+            <button class="btn" id="img2" style="border: none;" onclick="AlterImg2()"><span class="color green"></span></button>
+            <button class="btn" id="img3" style="border: none;" onclick="AlterImg3()"> <span class="color blue"></span> </button>
             </div> 
             <div> 
                 <center>
