@@ -2,10 +2,11 @@
 .divtong {
   box-sizing: border-box;
   margin: 10px auto;
-  width: 85%;
+  width: 90%;
   height: 1700px;
 }
 /*Phan logo*/
+
 #inputclickevent {
   width: 60%;
   background: transparent;
@@ -46,20 +47,21 @@
   height: auto;
 }
 /*Phần Navigation*/
-.nav-link:hover {
-  background-color: rgb(253, 233, 208) !important;
-  color: #964b00 !important;
-  border-bottom-color: #964b00 !important;
-  transition: color 0.3s, border-bottom-color 0.3s, background-color 0.4 !important ;
-}
-.list-group-width {
+.menu .list-group-width {
   width: 16%;
+}
+.list-group-item:hover {
+  background-color: rgb(253, 233, 208);
+}
+.list-group-item a:hover {
+  background-color: rgb(253, 233, 208);
 }
 .menucon1 {
   position: absolute;
   display: none;
-  width: 100%;
-  z-index: 3;
+  width: 200%;
+  font-size: 14px;
+  z-index: 99;
 }
 .menucha1:hover + .menucon1,
 .menucon1:hover {
@@ -69,7 +71,8 @@
   position: absolute;
   display: none;
   width: 100%;
-  z-index: 3;
+  font-size: 14px;
+  z-index: 99;
 }
 .menucha2:hover + .menucon2,
 .menucon2:hover {
@@ -79,7 +82,8 @@
   position: absolute;
   display: none;
   width: 100%;
-  z-index: 3;
+  font-size: 14px;
+  z-index: 99;
 }
 .menucha3:hover + .menucon3,
 .menucon3:hover {
@@ -89,7 +93,8 @@
   position: absolute;
   display: none;
   width: 100%;
-  z-index: 3;
+  font-size: 14px;
+  z-index: 99;
 }
 .menucha4:hover + .menucon4,
 .menucon4:hover {
@@ -99,7 +104,8 @@
   position: absolute;
   display: none;
   width: 100%;
-  z-index: 3;
+  font-size: 14px;
+  z-index: 99;
 }
 .menucha5:hover + .menucon5,
 .menucon5:hover {
@@ -109,7 +115,8 @@
   position: absolute;
   display: none;
   width: 100%;
-  z-index: 3;
+  font-size: 14px;
+  z-index: 99;
 }
 .menucha6:hover + .menucon6,
 .menucon6:hover {
@@ -119,17 +126,20 @@
   position: absolute;
   display: none;
   width: 100%;
-  z-index: 3;
+  font-size: 14px;
+  z-index: 99;
 }
 .menucha7:hover + .menucon7,
 .menucon7:hover {
   display: block;
 }
+
 .menucon8 {
   position: absolute;
   display: none;
   width: 100%;
-  z-index: 3;
+  font-size: 14px;
+  z-index: 99;
 }
 .menucha8:hover + .menucon8,
 .menucon8:hover {
@@ -140,12 +150,31 @@
   width: 13%;
 }
 .sidebarfs {
-  font-size: 12px;
+  font-size: 15px;
 }
-
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1313px) {
   .sidebarfs {
-    font-size: 30px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1242px) {
+  .sidebarfs {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1171px) {
+  .sidebarfs {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 1099px) {
+  .sidebarfs {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 1028px) {
+  .sidebarfs {
+    font-size: 10px;
   }
 }
 @media screen and (max-width: 574px) {
@@ -156,6 +185,10 @@
 
 .list-group-item:hover {
   background-color: rgb(253, 233, 208);
+}
+
+.list-group-item:hover a {
+  background-color: rgb(253, 233, 208) !important;
 }
 /*Phan body Area*/
 /*Body2*/
@@ -172,7 +205,6 @@
   }
 }
 .zoom-image {
-  overflow: hidden; /* Loại bỏ phần vượt quá của ảnh */
   transition: transform 0.3s ease; /* Hiệu ứng chuyển động */
 }
 .Bodyarea2textalign {

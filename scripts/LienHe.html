@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/LienHe.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/LienHe.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -17,310 +17,329 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css"
-  />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="divtong">
-        <div class="container">
-            <div class="row">
-              <div
-                class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 col-xxl-4"
-              >
-                <div>
-                  <img
-                    src="/images/Logo/logo-watchstore.webp"
-                    width="100%"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div
-                class="col-xs-0 col-sm-0 col-md-0 col-lg-0 col-xl-2 col-xxl-2"
-              ></div>
-              <div
-                class="col-8 col-sm-10 col-md-10 col-lg-11 col-xl-5 col-xxl-5 mt-4"
-              >
-                <div class="divtimkiem">
-                  <button class="btn butnlogo">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                  </button>
-                  <input
-                    id="inputclickevent"
-                    type="text"
-                    placeholder="Tìm sản phẩm hoặc thương hiệu"
-                  />
-                </div>
-              </div>
-              <div class="col-2 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xxl-1 mt-4">
-                <button type="button" class="divcartbtn">
-                  <i class="fa-solid fa-cart-shopping"></i>
-                </button>
-              </div>
-              <div
-                class="col-2 col-sm-1 col-md-1 col-lg-0 col-xl-0 d-lg-none d-xl-none mt-4"
-              >
-                <button
-                  type="button"
-                  id="sidebarCollapse"
-                  style="background-color: bisque"
-                  class="btn btn-lg"
-                >
-                  <i class="fas fa-align-left"></i>
-                </button>
-              </div>
-            </div>
-            <div class="container">
-              <div class="row mt-4">
-                <div class="col-lg-12 col-xl-12 d-none d-lg-inline">
-                  <ul class="nav nav-pills justify-content-center">
-                    <li class="nav-item">
-                      <a
-                        class="nav-link menucha1 text-dark fs-4"
-                        aria-current="page"
-                        href="#"
-                        >Thương hiệu</a
-                      >
-                      <div class="menucon1">
-                        <ul class="list-group list-group-flush list-group-width">
-                          <li class="list-group-item">CÁC HÃNG BÁN CHẠY</li>
-                          <li class="list-group-item">CÁC DÒNG ĐẶC BIỆT</li>
-                          <li class="list-group-item">SWISS MADE (THUỴ SỸ)</li>
-                          <li class="list-group-item">THƯƠNG HIỆU KHÁC</li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link menucha2 text-dark fs-4" href="#">Nam</a>
-                      <div class="menucon2">
-                        <ul class="list-group list-group-flush list-group-width">
-                          <li class="list-group-item">KHOẢNG GIÁ</li>
-                          <li class="list-group-item">CHẤT LIỆU</li>
-                          <li class="list-group-item">THƯƠNG HIỆU</li>
-                          <li class="list-group-item">SWISS MADE (THUỴ SỸ)</li>
-                          <li class="list-group-item">CÁC DÒNG ĐẶC BIỆT</li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link menucha3 text-dark fs-4" href="#">Nữ</a>
-                      <div class="menucon3">
-                        <ul class="list-group list-group-flush list-group-width">
-                          <li class="list-group-item">KHOẢNG GIÁ</li>
-                          <li class="list-group-item">CHẤT LIỆU</li>
-                          <li class="list-group-item">THƯƠNG HIỆU</li>
-                          <li class="list-group-item">SWISS MADE (THUỴ SỸ)</li>
-                          <li class="list-group-item">CÁC DÒNG ĐẶC BIỆT</li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link menucha4 text-dark fs-4" href="#"
-                        >Cặp đôi</a
-                      >
-                      <div class="menucon4">
-                        <ul class="list-group list-group-flush list-group-width">
-                          <li class="list-group-item">KHOẢNG GIÁ</li>
-                          <li class="list-group-item">CHẤT LIỆU DÂY</li>
-                          <li class="list-group-item">THƯƠNG HIỆU</li>
-                          <li class="list-group-item">CÁC DÒNG ĐẶC BIỆT</li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link menucha5 text-dark fs-4" href="#"
-                        >Trang Sức</a
-                      >
-                      <div class="menucon5">
-                        <ul class="list-group list-group-flush list-group-width">
-                          <li class="list-group-item">TRANG SỨC</li>
-                          <li class="list-group-item">TRANG SỨC BẠC</li>
-                          <li class="list-group-item">TRANG SỨC VÀNG</li>
-                          <li class="list-group-item">THƯƠNG HIỆU</li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link menucha6 text-dark fs-4" href="#"
-                        >Phụ kiện</a
-                      >
-                      <div class="menucon6">
-                        <ul class="list-group list-group-flush list-group-width">
-                          <li class="list-group-item">PHỤ KIỆN</li>
-                          <li class="list-group-item">THƯƠNG HIỆU</li>
-                          <li class="list-group-item">DỊCH VỤ</li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li class="nav-item">
-                      <a
-                        class="nav-link menucha7 text-dark fs-4"
-                        href="/scripts/index3.html"
-                        target="_blank"
-                        >Liên hệ</a
-                      >
-                      <div class="menucon7">
-                        <ul class="list-group list-group-flush list-group-width">
-                          <li class="list-group-item">Giới thiệu Hải Triều</li>
-                          <li class="list-group-item">Tin tức Hải Triều</li>
-                          <li class="list-group-item">Thông tin liên hệ</li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link menucha8 text-dark fs-4" href="#"
-                        >Tin tức</a
-                      >
-                      <div class="menucon8">
-                        <ul class="list-group list-group-flush list-group-width">
-                          <li class="list-group-item">Kiến Thức Đồng Hồ</li>
-                          <li class="list-group-item">Tư Vấn Chọn Mua</li>
-                          <li class="list-group-item">Thuật Ngữ Đồng Hồ</li>
-                          <li class="list-group-item">Cẩm Nang Sử Dụng</li>
-                        </ul>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <hr />
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 col-xxl-4"
+          >
+            <div>
+              <img src="/images/Logo/PMT4.PNG" width="100%" alt="" />
             </div>
           </div>
-          <div class="container">
-            <center><h4>HỆ THỐNG CỬA HÀNG</h4></center>
-          <div class="row mt-4">
-            <div class="col-sm-0 col-md-0 col-lg-1"></div>
-            <div class="col-sm-12 col-md-12 col-lg-9">            
-                <div class="row BorderRow" style="background-color: #f8f8f8">
-                <div class="col-sm-12 col-md-12 col-lg-4 gx-sm-0 gx-lg-1">
-                  <div class="divPhai1">
-                    <img
-                      src="/images/LienHeImg/pic1.avif"
-                      alt="..."
-                    />
-                  </div>
-                </div>
-                <div class="col-sm-12 col-md-12 col-lg-8 gx-sm-0 gx-lg-1">
-                  <div class="divPhai2">
-                    <a href="#">
-                      <div class="divPhai21 mt-4">
-                        <span style="font-weight: bold;">Chi Nhánh: </span> 190D Trần Quang Khải, P.Tân Định, Q.1 – TPHCM (Xem Bản Đồ)
-                      </div>
-                      <div class="divPhai22 mt-4">
-                        <span style="font-weight: bold;">ĐT:</span>  1900.6777
-                      </div>
-                      <div class="divPhai23 mt-4"> <span style="font-weight: bold;">Mail:</span> phamminhtri26102003@gamil.com</div>
-                      <div class="divPhai24 mt-4"> <span style="font-weight: bold;">Bán Các Hãng:</span> Citizen, Casio, Orient, Daniel Wellington, Saga, Seiko, Fossil, OP, Candino, Skagen, Michael Kors, K</div>
-                    </a>
-                  </div>
-                </div>
-              </div></div>
-              <div class="col-sm-0 col-md-0 col-lg-2"></div>
-          </div>
-          <!-- CH2 -->
-          <div class="row mt-4">
-            <div class="col-sm-0 col-md-0 col-lg-1"></div>
-            <div class="col-sm-12 col-md-12 col-lg-9">            
-                <div class="row BorderRow" style="background-color: #f8f8f8">
-                <div class="col-sm-12 col-md-12 col-lg-4 gx-sm-0 gx-lg-1">
-                  <div class="divPhai1">
-                    <img
-                      src="/images/LienHeImg/pic2.avif"
-                      alt="..."
-                    />
-                  </div>
-                </div>
-                <div class="col-sm-12 col-md-12 col-lg-8 gx-sm-0 gx-lg-1">
-                  <div class="divPhai2">
-                    <a href="#">
-                      <div class="divPhai21 mt-4">
-                        <span style="font-weight: bold;">Chi Nhánh: </span> 190D Trần Quang Khải, P.Tân Định, Q.1 – TPHCM (Xem Bản Đồ)
-                      </div>
-                      <div class="divPhai22 mt-4">
-                        <span style="font-weight: bold;">ĐT:</span>  1900.6777
-                      </div>
-                      <div class="divPhai23 mt-4"> <span style="font-weight: bold;">Mail:</span> phamminhtri26102003@gamil.com</div>
-                      <div class="divPhai24 mt-4"> <span style="font-weight: bold;">Bán Các Hãng:</span> Citizen, Casio, Orient, Daniel Wellington, Saga, Seiko, Fossil, OP, Candino, Skagen, Michael Kors, K</div>
-                    </a>
-                  </div>
-                </div>
-              </div></div>
-              <div class="col-sm-0 col-md-0 col-lg-2"></div>
-          </div>
-          <!-- CH3 -->
-          <div class="row mt-4">
-            <div class="col-sm-0 col-md-0 col-lg-1"></div>
-            <div class="col-sm-12 col-md-12 col-lg-9">            
-                <div class="row BorderRow" style="background-color: #f8f8f8">
-                <div class="col-sm-12 col-md-12 col-lg-4 gx-sm-0 gx-lg-1">
-                  <div class="divPhai1">
-                    <img
-                      src="/images/LienHeImg/pic3.avif"
-                      alt="..."
-                    />
-                  </div>
-                </div>
-                <div class="col-sm-12 col-md-12 col-lg-8 gx-sm-0 gx-lg-1">
-                  <div class="divPhai2">
-                    <a href="#">
-                      <div class="divPhai21 mt-4">
-                        <span style="font-weight: bold;">Chi Nhánh: </span> 190D Trần Quang Khải, P.Tân Định, Q.1 – TPHCM (Xem Bản Đồ)
-                      </div>
-                      <div class="divPhai22 mt-4">
-                        <span style="font-weight: bold;">ĐT:</span>  1900.6777
-                      </div>
-                      <div class="divPhai23 mt-4"> <span style="font-weight: bold;">Mail:</span> phamminhtri26102003@gamil.com</div>
-                      <div class="divPhai24 mt-4"> <span style="font-weight: bold;">Bán Các Hãng:</span> Citizen, Casio, Orient, Daniel Wellington, Saga, Seiko, Fossil, OP, Candino, Skagen, Michael Kors, K</div>
-                    </a>
-                  </div>
-                </div>
-              </div></div>
-              <div class="col-sm-0 col-md-0 col-lg-2"></div>
-          </div>
-          <!-- CH4 -->
-          <div class="row mt-4">
-            <div class="col-sm-0 col-md-0 col-lg-1"></div>
-            <div class="col-sm-12 col-md-12 col-lg-9">            
-                <div class="row BorderRow" style="background-color: #f8f8f8">
-                <div class="col-sm-12 col-md-12 col-lg-4 gx-sm-0 gx-lg-1">
-                  <div class="divPhai1">
-                    <img
-                      src="/images/LienHeImg/pic4.avif"
-                      alt="..."
-                    />
-                  </div>
-                </div>
-                <div class="col-sm-12 col-md-12 col-lg-8 gx-sm-0 gx-lg-1">
-                  <div class="divPhai2">
-                    <a href="#">
-                      <div class="divPhai21 mt-4">
-                        <span style="font-weight: bold;">Chi Nhánh: </span> 190D Trần Quang Khải, P.Tân Định, Q.1 – TPHCM (Xem Bản Đồ)
-                      </div>
-                      <div class="divPhai22 mt-4">
-                        <span style="font-weight: bold;">ĐT:</span>  1900.6777
-                      </div>
-                      <div class="divPhai23 mt-4"> <span style="font-weight: bold;">Mail:</span> phamminhtri26102003@gamil.com</div>
-                      <div class="divPhai24 mt-4"> <span style="font-weight: bold;">Bán Các Hãng:</span> Citizen, Casio, Orient, Daniel Wellington, Saga, Seiko, Fossil, OP, Candino, Skagen, Michael Kors, K</div>
-                    </a>
-                  </div>
-                </div>
-              </div>
+          <div
+            class="col-xs-0 col-sm-0 col-md-0 col-lg-0 col-xl-2 col-xxl-2"
+          ></div>
+          <div
+            class="col-8 col-sm-10 col-md-10 col-lg-11 col-xl-5 col-xxl-5 mt-4"
+          >
+            <div class="divtimkiem">
+              <button class="btn butnlogo">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+              <input
+                id="inputclickevent"
+                type="text"
+                placeholder="Tìm sản phẩm hoặc thương hiệu"
+              />
             </div>
-              <div class="col-sm-0 col-md-0 col-lg-2"></div>
+          </div>
+          <div class="col-2 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xxl-1 mt-4">
+            <button type="button" class="divcartbtn">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </button>
+          </div>
+          <div
+            class="col-2 col-sm-1 col-md-1 col-lg-0 col-xl-0 d-lg-none d-xl-none mt-4"
+          >
+            <button
+              type="button"
+              id="sidebarCollapse"
+              style="background-color: bisque"
+              class="btn btn-lg"
+            >
+              <i class="fas fa-align-left"></i>
+            </button>
           </div>
         </div>
-        <div class="container mt-5">
-          <div class="row text-white" style="background-color: #9f1d25;">
+        <div class="container">
+          <div class="row mt-4">
+            <div class="col-lg-12 col-xl-12 d-none d-lg-inline">
+              <ul class="nav nav-pills justify-content-center">
+                <li class="nav-item">
+                  <a
+                    class="nav-link menucha1 text-dark fs-4"
+                    aria-current="page"
+                    href="#"
+                    >Thương hiệu</a
+                  >
+                  <div class="menucon1">
+                    <ul class="list-group list-group-flush list-group-width">
+                      <li class="list-group-item">CÁC HÃNG BÁN CHẠY</li>
+                      <li class="list-group-item">CÁC DÒNG ĐẶC BIỆT</li>
+                      <li class="list-group-item">SWISS MADE (THUỴ SỸ)</li>
+                      <li class="list-group-item">THƯƠNG HIỆU KHÁC</li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link menucha2 text-dark fs-4" href="#">Nam</a>
+                  <div class="menucon2">
+                    <ul class="list-group list-group-flush list-group-width">
+                      <li class="list-group-item">KHOẢNG GIÁ</li>
+                      <li class="list-group-item">CHẤT LIỆU</li>
+                      <li class="list-group-item">THƯƠNG HIỆU</li>
+                      <li class="list-group-item">SWISS MADE (THUỴ SỸ)</li>
+                      <li class="list-group-item">CÁC DÒNG ĐẶC BIỆT</li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link menucha3 text-dark fs-4" href="#">Nữ</a>
+                  <div class="menucon3">
+                    <ul class="list-group list-group-flush list-group-width">
+                      <li class="list-group-item">KHOẢNG GIÁ</li>
+                      <li class="list-group-item">CHẤT LIỆU</li>
+                      <li class="list-group-item">THƯƠNG HIỆU</li>
+                      <li class="list-group-item">SWISS MADE (THUỴ SỸ)</li>
+                      <li class="list-group-item">CÁC DÒNG ĐẶC BIỆT</li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link menucha4 text-dark fs-4" href="#"
+                    >Cặp đôi</a
+                  >
+                  <div class="menucon4">
+                    <ul class="list-group list-group-flush list-group-width">
+                      <li class="list-group-item">KHOẢNG GIÁ</li>
+                      <li class="list-group-item">CHẤT LIỆU DÂY</li>
+                      <li class="list-group-item">THƯƠNG HIỆU</li>
+                      <li class="list-group-item">CÁC DÒNG ĐẶC BIỆT</li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link menucha5 text-dark fs-4" href="#"
+                    >Trang Sức</a
+                  >
+                  <div class="menucon5">
+                    <ul class="list-group list-group-flush list-group-width">
+                      <li class="list-group-item">TRANG SỨC</li>
+                      <li class="list-group-item">TRANG SỨC BẠC</li>
+                      <li class="list-group-item">TRANG SỨC VÀNG</li>
+                      <li class="list-group-item">THƯƠNG HIỆU</li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link menucha6 text-dark fs-4" href="#"
+                    >Phụ kiện</a
+                  >
+                  <div class="menucon6">
+                    <ul class="list-group list-group-flush list-group-width">
+                      <li class="list-group-item">PHỤ KIỆN</li>
+                      <li class="list-group-item">THƯƠNG HIỆU</li>
+                      <li class="list-group-item">DỊCH VỤ</li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link menucha7 text-dark fs-4"
+                    href="/scripts/index3.html"
+                    target="_blank"
+                    >Liên hệ</a
+                  >
+                  <div class="menucon7">
+                    <ul class="list-group list-group-flush list-group-width">
+                      <li class="list-group-item">Giới thiệu</li>
+                      <li class="list-group-item">Tin tức</li>
+                      <li class="list-group-item">Thông tin</li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link menucha8 text-dark fs-4" href="#"
+                    >Tin tức</a
+                  >
+                  <div class="menucon8">
+                    <ul class="list-group list-group-flush list-group-width">
+                      <li class="list-group-item">Kiến Thức Đồng Hồ</li>
+                      <li class="list-group-item">Tư Vấn Chọn Mua</li>
+                      <li class="list-group-item">Thuật Ngữ Đồng Hồ</li>
+                      <li class="list-group-item">Cẩm Nang Sử Dụng</li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+        </div>
+      </div>
+      <div class="container">
+        <center><h4>HỆ THỐNG CỬA HÀNG</h4></center>
+        <div class="row mt-4">
+          <div class="col-sm-0 col-md-0 col-lg-1"></div>
+          <div class="col-sm-12 col-md-12 col-lg-9">
+            <div class="row BorderRow" style="background-color: #f8f8f8">
+              <div class="col-sm-12 col-md-12 col-lg-4 gx-sm-0 gx-lg-1">
+                <div class="divPhai1">
+                  <img src="/images/LienHeImg/pic1.avif" alt="..." />
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-8 gx-sm-0 gx-lg-1">
+                <div class="divPhai2">
+                  <a href="#">
+                    <div class="divPhai21 mt-4">
+                      <span style="font-weight: bold">Chi Nhánh: </span> 190D
+                      Trần Quang Khải, P.Tân Định, Q.1 – TPHCM (Xem Bản Đồ)
+                    </div>
+                    <div class="divPhai22 mt-4">
+                      <span style="font-weight: bold">ĐT:</span> 1900.6777
+                    </div>
+                    <div class="divPhai23 mt-4">
+                      <span style="font-weight: bold">Mail:</span>
+                      phamminhtri26102003@gamil.com
+                    </div>
+                    <div class="divPhai24 mt-4">
+                      <span style="font-weight: bold">Bán Các Hãng:</span>
+                      Citizen, Casio, Orient, Daniel Wellington, Saga, Seiko,
+                      Fossil, OP, Candino, Skagen, Michael Kors, K
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-0 col-md-0 col-lg-2"></div>
+        </div>
+        <!-- CH2 -->
+        <div class="row mt-4">
+          <div class="col-sm-0 col-md-0 col-lg-1"></div>
+          <div class="col-sm-12 col-md-12 col-lg-9">
+            <div class="row BorderRow" style="background-color: #f8f8f8">
+              <div class="col-sm-12 col-md-12 col-lg-4 gx-sm-0 gx-lg-1">
+                <div class="divPhai1">
+                  <img src="/images/LienHeImg/pic2.avif" alt="..." />
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-8 gx-sm-0 gx-lg-1">
+                <div class="divPhai2">
+                  <a href="#">
+                    <div class="divPhai21 mt-4">
+                      <span style="font-weight: bold">Chi Nhánh: </span> 190D
+                      Trần Quang Khải, P.Tân Định, Q.1 – TPHCM (Xem Bản Đồ)
+                    </div>
+                    <div class="divPhai22 mt-4">
+                      <span style="font-weight: bold">ĐT:</span> 1900.6777
+                    </div>
+                    <div class="divPhai23 mt-4">
+                      <span style="font-weight: bold">Mail:</span>
+                      phamminhtri26102003@gamil.com
+                    </div>
+                    <div class="divPhai24 mt-4">
+                      <span style="font-weight: bold">Bán Các Hãng:</span>
+                      Citizen, Casio, Orient, Daniel Wellington, Saga, Seiko,
+                      Fossil, OP, Candino, Skagen, Michael Kors, K
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-0 col-md-0 col-lg-2"></div>
+        </div>
+        <!-- CH3 -->
+        <div class="row mt-4">
+          <div class="col-sm-0 col-md-0 col-lg-1"></div>
+          <div class="col-sm-12 col-md-12 col-lg-9">
+            <div class="row BorderRow" style="background-color: #f8f8f8">
+              <div class="col-sm-12 col-md-12 col-lg-4 gx-sm-0 gx-lg-1">
+                <div class="divPhai1">
+                  <img src="/images/LienHeImg/pic3.avif" alt="..." />
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-8 gx-sm-0 gx-lg-1">
+                <div class="divPhai2">
+                  <a href="#">
+                    <div class="divPhai21 mt-4">
+                      <span style="font-weight: bold">Chi Nhánh: </span> 190D
+                      Trần Quang Khải, P.Tân Định, Q.1 – TPHCM (Xem Bản Đồ)
+                    </div>
+                    <div class="divPhai22 mt-4">
+                      <span style="font-weight: bold">ĐT:</span> 1900.6777
+                    </div>
+                    <div class="divPhai23 mt-4">
+                      <span style="font-weight: bold">Mail:</span>
+                      phamminhtri26102003@gamil.com
+                    </div>
+                    <div class="divPhai24 mt-4">
+                      <span style="font-weight: bold">Bán Các Hãng:</span>
+                      Citizen, Casio, Orient, Daniel Wellington, Saga, Seiko,
+                      Fossil, OP, Candino, Skagen, Michael Kors, K
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-0 col-md-0 col-lg-2"></div>
+        </div>
+        <!-- CH4 -->
+        <div class="row mt-4">
+          <div class="col-sm-0 col-md-0 col-lg-1"></div>
+          <div class="col-sm-12 col-md-12 col-lg-9">
+            <div class="row BorderRow" style="background-color: #f8f8f8">
+              <div class="col-sm-12 col-md-12 col-lg-4 gx-sm-0 gx-lg-1">
+                <div class="divPhai1">
+                  <img src="/images/LienHeImg/pic4.avif" alt="..." />
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-8 gx-sm-0 gx-lg-1">
+                <div class="divPhai2">
+                  <a href="#">
+                    <div class="divPhai21 mt-4">
+                      <span style="font-weight: bold">Chi Nhánh: </span> 190D
+                      Trần Quang Khải, P.Tân Định, Q.1 – TPHCM (Xem Bản Đồ)
+                    </div>
+                    <div class="divPhai22 mt-4">
+                      <span style="font-weight: bold">ĐT:</span> 1900.6777
+                    </div>
+                    <div class="divPhai23 mt-4">
+                      <span style="font-weight: bold">Mail:</span>
+                      phamminhtri26102003@gamil.com
+                    </div>
+                    <div class="divPhai24 mt-4">
+                      <span style="font-weight: bold">Bán Các Hãng:</span>
+                      Citizen, Casio, Orient, Daniel Wellington, Saga, Seiko,
+                      Fossil, OP, Candino, Skagen, Michael Kors, K
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-0 col-md-0 col-lg-2"></div>
+        </div>
+      </div>
+      <div class="container mt-5">
+        <div class="row text-white" style="background-color: #9f1d25">
           <div class="col-7"><h5>LIÊN HỆ</h5></div>
           <div class="col-5"><h5>HỢP TÁC KINH DOANH</h5></div>
-         </div>
-         <div class="row">
+        </div>
+        <div class="row">
           <div class="col-3">
             <h5 class="mt-4">Tổng đài miễn phí</h5>
-            <div style="list-style-type: none;">
+            <div style="list-style-type: none">
               <li>Mua hàng: 1800.2097 (7h30 - 22h00)</li>
               <li>Khiếu nại, góp ý: 1800.2063 (8h00 - 21h00)</li>
               <li>Trung tâm bảo hành: 1800.2064 (8h00 - 21h30)</li>
@@ -328,205 +347,207 @@
           </div>
           <div class="col-3">
             <h5 class="mt-4">Cho thuê mặt bằng:</h5>
-            <div style="list-style-type: none;">
-            <li>Mr. Tri
-              </li>
-            <li><a href="#">phamminhtri26102003@gmail.com</a></li>
+            <div style="list-style-type: none">
+              <li>Mr. Tri</li>
+              <li><a href="#">phamminhtri26102003@gmail.com</a></li>
             </div>
           </div>
           <div class="col-6">
             <h5 class="mt-2">Bán hàng doanh nghiệp:</h5>
-            <div style="list-style-type: none;">
+            <div style="list-style-type: none">
               <li>Tại Miền Nam:</li>
-              <li>Mr.Phung:098.8880.162(Zalo, Viber, Telegram)-phongb2b@cellphones.com.vn</li>
+              <li>
+                Mr.Phung:098.8880.162(Zalo, Viber,
+                Telegram)-phongb2b@cellphones.com.vn
+              </li>
               <li>Tại Miền Bắc - Trung:</li>
-              <li>Ms.Hiền: 098.8888.162 (Zalo, Viber, Telegram) - b2bmienbac@cellphones.com.vn</li>
+              <li>
+                Ms.Hiền: 098.8888.162 (Zalo, Viber, Telegram) -
+                b2bmienbac@cellphones.com.vn
+              </li>
             </div>
             <h5>Hợp tác giáo dục:</h5>
-            <div style="list-style-type: none;">
-              <li>Mr.Tri - phamminhtri26102003@gmail.com</li>       
-            </div>
-         </div>
-        </div>
-        </div>
-        <!-- Footer -->
-          <div class="container">
-            <div class="row mt-5">
-              <center>
-                <a
-                  href="#"
-                  style="
-                    text-decoration: none;
-                    font-size: 18px;
-                    padding: 6px 35px;
-                    border: 2px solid #5a9de1;
-                    color: #5a9de1;
-                    border-radius: 10px;
-                  "
-                >
-                  Xem thêm
-                </a>
-              </center>
+            <div style="list-style-type: none">
+              <li>Mr.Tri - phamminhtri26102003@gmail.com</li>
             </div>
           </div>
-    
-          <div class="container mt-4" style="background-color: #9f1d25; ">
-            <div
-              class="row pt-5 pb-4"
-              style="width: 100%"
-            >
-              <div class="col-sm-2 col-md-0 col-lg-0"></div>
-              <div class="col-sm-8 col-md-0 col-lg-0">
-                <img
-                  src="/images/Logo/logo-watchstore.webp"
-                  class="img-fluid d-inline d-md-none"
-                  alt="..."
-                />
-              </div>
-              <div class="col-sm-2 col-md-0 col-lg-0"></div>
-              <div class="col-sm-12 col-md-3 col-lg-3 mt-3 gx-0">
-                <div class="imgCustom">
-                  <img
-                    src="/images/imgLastFooter/p10.avif"
-                    class="img-fluid d-none d-md-inline"
-                    alt="..."
-                  />
-                  <div class="Policy">
-                    <button class="btn btn-sm text-white">CHÍNH SÁCH</button>
-                    <button
-                      id="toggleButton"
-                      class="btn text-white"
-                      style="float: right"
-                    >
-                      <i class="fa-solid fa-angle-down"></i>
-                    </button>
-                    <div id="ContenToggle">
-                      <ul class="Policy-list">
-                        <li>Chính sách đổi hàng</li>
-                        <li>Chính sách bảo hành</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-    
-              <div class="col-sm-12 col-md-3 col-lg-3 gx-0">
-                <div class="SystemStore">
-                  <button class="btn btn-sm text-white">HỆ THỐNG CỬA HÀNG</button>
-                  <button
-                    id="toggleButton1"
-                    class="btn text-white"
-                    style="float: right"
-                  >
-                    <i class="fa-solid fa-angle-down"></i>
-                  </button>
-                  <div id="ContenToggle1">
-                    <ul class="SystemStoreList">
-                      <li>TP. Hồ Chí Minh</li>
-                      <li>Hà Nội</li>
-                      <li>Hải Phòng</li>
-                      <li>Biên Hoà - Bình Dương</li>
-                      <li>Đà Nẵng</li>
-                      <li>Vũng Tàu</li>
-                      <li>Cần Thơ</li>
-                      <li>Long Xuyên</li>
-                      <li>Trung Tâm Bảo Hành</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-12 col-md-3 col-lg-3 gx-0">
-                <div class="SystemStore">
-                  <button class="btn btn-sm text-white">THÔNG TIN</button>
-                  <button
-                    id="toggleButton2"
-                    class="btn text-white"
-                    style="float: right"
-                  >
-                    <i class="fa-solid fa-angle-down"></i>
-                  </button>
-                  <div id="ContenToggle2">
-                    <ul class="SystemStoreList">
-                      <li>Thông tin liên hệ</li>
-                      <li>Thanh toán - Trả góp</li>
-                      <li>Liên hệ đối tác doanh nghiệp</li>
-                      <li>Biên Hoà - Bình Dương</li>
-                      <li>Vận chuyển & Giao nhận</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="Policy d-none d-md-inline">
-                  <button class="btn btn-sm text-white">THAM KHẢO</button>
-                  <button
-                    id="toggleButton3"
-                    class="btn text-white"
-                    style="float: right"
-                  >
-                    <i class="fa-solid fa-angle-down"></i>
-                  </button>
-                  <div id="ContenToggle3">
-                    <ul class="Policy-list">
-                      <li>Điều khoản sử dụng</li>
-                      <li>Chính sách bảo hành</li>
-                      <li>Bảo mật thông tin</li>
-                      <li>Tra cứu đồng hồ bảo hành</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-12 col-md-3 col-lg-3 gx-0">
-                <div class="Policy">
-                  <button class="btn btn-sm text-white">VỀ CHÚNG TÔI</button>
-                  <button
-                    id="toggleButton4"
-                    class="btn text-white"
-                    style="float: right"
-                  >
-                    <i class="fa-solid fa-angle-down"></i>
-                  </button>
-                  <div id="ContenToggle4">
-                    <ul class="Logo-list">
-                      <li>
-                        <img
-                          src="/images/imgLastFooter/p11.avif"
-                          alt="..."
-                          class="img-fluid"
-                        />
-                      </li>
-                      <li>
-                        <img
-                          src="/images/imgLastFooter/p12.avif"
-                          alt="..."
-                          class="img-fluid"
-                        />
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="container" style=" background-color: #8b191b;">
-            <div
-              class="row"
+        </div>
+      </div>
+      <!-- Footer -->
+      <div class="container">
+        <div class="row mt-5">
+          <center>
+            <a
+              href="#"
               style="
-                width: 100%;
-                height: 85px;
-               
-                padding-top: 20px;
+                text-decoration: none;
+                font-size: 18px;
+                padding: 6px 35px;
+                border: 2px solid #5a9de1;
+                color: #5a9de1;
+                border-radius: 10px;
               "
             >
-              <div class="col-12">
-                <div class="text-white" style="font-size: 13px">
-                  GPDKKD Số: 0768897720 do sở KH & ĐT TP.HCM cấp ngày: 1/1/2003
-                </div>
-                <div class="text-white" style="font-size: 13px; padding-top: 2px">
-                  Góp ý & Khiếu nại: ceo@phamminhtri.com
+              Xem thêm
+            </a>
+          </center>
+        </div>
+      </div>
+
+      <div class="container mt-4" style="background-color: #9f1d25">
+        <div class="row pt-5 pb-4" style="width: 100%">
+          <div class="col-sm-2 col-md-0 col-lg-0"></div>
+          <div class="col-sm-8 col-md-0 col-lg-0">
+            <img
+              src="/images/Logo/logo-watchstore.webp"
+              class="img-fluid d-inline d-md-none"
+              alt="..."
+            />
+          </div>
+          <div class="col-sm-2 col-md-0 col-lg-0"></div>
+          <div class="col-sm-12 col-md-3 col-lg-3 mt-3 gx-0">
+            <div class="imgCustom">
+              <img
+                src="/images/imgLastFooter/p10.avif"
+                class="img-fluid d-none d-md-inline"
+                alt="..."
+              />
+              <div class="Policy">
+                <button class="btn btn-sm text-white">CHÍNH SÁCH</button>
+                <button
+                  id="toggleButton"
+                  class="btn text-white"
+                  style="float: right"
+                >
+                  <i class="fa-solid fa-angle-down"></i>
+                </button>
+                <div id="ContenToggle">
+                  <ul class="Policy-list">
+                    <li>Chính sách đổi hàng</li>
+                    <li>Chính sách bảo hành</li>
+                  </ul>
                 </div>
               </div>
             </div>
           </div>
+
+          <div class="col-sm-12 col-md-3 col-lg-3 gx-0">
+            <div class="SystemStore">
+              <button class="btn btn-sm text-white">HỆ THỐNG CỬA HÀNG</button>
+              <button
+                id="toggleButton1"
+                class="btn text-white"
+                style="float: right"
+              >
+                <i class="fa-solid fa-angle-down"></i>
+              </button>
+              <div id="ContenToggle1">
+                <ul class="SystemStoreList">
+                  <li>TP. Hồ Chí Minh</li>
+                  <li>Hà Nội</li>
+                  <li>Hải Phòng</li>
+                  <li>Biên Hoà - Bình Dương</li>
+                  <li>Đà Nẵng</li>
+                  <li>Vũng Tàu</li>
+                  <li>Cần Thơ</li>
+                  <li>Long Xuyên</li>
+                  <li>Trung Tâm Bảo Hành</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-3 col-lg-3 gx-0">
+            <div class="SystemStore">
+              <button class="btn btn-sm text-white">THÔNG TIN</button>
+              <button
+                id="toggleButton2"
+                class="btn text-white"
+                style="float: right"
+              >
+                <i class="fa-solid fa-angle-down"></i>
+              </button>
+              <div id="ContenToggle2">
+                <ul class="SystemStoreList">
+                  <li>Thông tin liên hệ</li>
+                  <li>Thanh toán - Trả góp</li>
+                  <li>Liên hệ đối tác doanh nghiệp</li>
+                  <li>Biên Hoà - Bình Dương</li>
+                  <li>Vận chuyển & Giao nhận</li>
+                </ul>
+              </div>
+            </div>
+            <div class="Policy d-none d-md-inline">
+              <button class="btn btn-sm text-white">THAM KHẢO</button>
+              <button
+                id="toggleButton3"
+                class="btn text-white"
+                style="float: right"
+              >
+                <i class="fa-solid fa-angle-down"></i>
+              </button>
+              <div id="ContenToggle3">
+                <ul class="Policy-list">
+                  <li>Điều khoản sử dụng</li>
+                  <li>Chính sách bảo hành</li>
+                  <li>Bảo mật thông tin</li>
+                  <li>Tra cứu đồng hồ bảo hành</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-3 col-lg-3 gx-0">
+            <div class="Policy">
+              <button class="btn btn-sm text-white">VỀ CHÚNG TÔI</button>
+              <button
+                id="toggleButton4"
+                class="btn text-white"
+                style="float: right"
+              >
+                <i class="fa-solid fa-angle-down"></i>
+              </button>
+              <div id="ContenToggle4">
+                <ul class="Logo-list">
+                  <li>
+                    <img
+                      src="/images/imgLastFooter/p11.avif"
+                      alt="..."
+                      class="img-fluid"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="/images/imgLastFooter/p12.avif"
+                      alt="..."
+                      class="img-fluid"
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container" style="background-color: #8b191b">
+        <div
+          class="row"
+          style="
+            width: 100%;
+            height: 85px;
+
+            padding-top: 20px;
+          "
+        >
+          <div class="col-12">
+            <div class="text-white" style="font-size: 13px">
+              GPDKKD Số: 0768897720 do sở KH & ĐT TP.HCM cấp ngày: 1/1/2003
+            </div>
+            <div class="text-white" style="font-size: 13px; padding-top: 2px">
+              Góp ý & Khiếu nại: ceo@phamminhtri.com
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
-<script src="ToggleFooter.js"></script>
+  </body>
+  <script src="ToggleFooter.js"></script>
 </html>

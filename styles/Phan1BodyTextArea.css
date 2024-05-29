@@ -11,19 +11,19 @@
 .item5 {
   grid-area: footer;
 }
-.item2>a {
+.item2 > a {
   width: 100%;
   height: 100%;
 }
-.item3>a {
+.item3 > a {
   width: 100%;
   height: 100%;
 }
-.item4>a {
+.item4 > a {
   width: 100%;
   height: 100%;
 }
-.item5>a {
+.item5 > a {
   width: 100%;
   height: 100%;
 }
@@ -47,7 +47,7 @@
   height: 100%;
 }
 .hover-scale {
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.4s ease-in-out;
 }
 
 .hover-scale:hover {
@@ -67,12 +67,11 @@
 .grid-container > div {
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
-  padding: 10px 0;
   font-size: 30px;
   width: 100%;
 }
 @media only screen and (max-width: 767px) {
-  .item2>a {
+  .item2 > a {
     align-items: center;
     grid-area: menu;
     height: 100%;
@@ -100,15 +99,15 @@
     border-radius: 5%;
     height: 100%;
   }
-  .item3>a {
+  .item3 > a {
     align-items: center;
     grid-area: left;
   }
-  .item4>a {
+  .item4 > a {
     align-items: center;
     grid-area: right;
   }
-  .item5>a {
+  .item5 > a {
     align-items: center;
     text-align: center;
     grid-area: footer;

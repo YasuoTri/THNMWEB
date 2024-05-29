@@ -1,0 +1,20 @@
+.menu {
+  display: flex;
+  overflow-x: auto; /* Tạo thanh cuộn ngang */
+  cursor: grab; /* Thay đổi con trỏ khi di chuột trên menu */
+  scrollbar-width: none;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.menu a {
+  text-decoration: none;
+  color: #333;
+  padding: 0px 15px;
+  border-radius: 5px;
+  white-space: nowrap; /* Chỉnh lại cho chữ không xuống dòng */
+}

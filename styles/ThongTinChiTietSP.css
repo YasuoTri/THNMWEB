@@ -1,91 +1,97 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
 }
-.divtong{
-    width: 100%;
-    height: 1700px;
-    margin: auto;
+.divtong {
+  width: 100%;
+  height: 1700px;
+  margin: auto;
 }
-body {  
-font-family:Arial, Helvetica, sans-serif;   
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+.Li-Pro-Info > li {
+  margin-top: 22px;
 }
- a{
-    text-decoration: none;
- }
- .Li-Pro-Info>li{
-    margin-top: 22px;
- }
-.details {  
-display: flex;  
-flex-direction: column;
+.details {
+  display: flex;
+  flex-direction: column;
 }
- 
-.product-title, .price, .sizes, .colors {   
-text-transform: UPPERCASE;  
-font-weight: bold;
+
+.product-title,
+.price,
+.sizes,
+.colors {
+  text-transform: UPPERCASE;
+  font-weight: bold;
 }
- 
-.checked, .price span { 
-color: #ff9f1a;
+
+.checked,
+.price span {
+  color: #ff9f1a;
 }
- 
-.product-title, .rating, .product-description, .price, .vote, .sizes {  
-margin-bottom: 2.3%;
+
+.product-title,
+.rating,
+.product-description,
+.price,
+.vote,
+.sizes {
+  margin-bottom: 2.3%;
 }
 
 .size {
-    margin-right: 2%;
-}
- 
-.size:first-child {   
-margin-left: 8%;
+  margin-right: 2%;
 }
 
-.color {    
-margin-top: -2px;
-display: inline-block;  
-vertical-align: middle; 
-height: 2em;    
-width: 2em; 
-border-radius: 2px;
-}
- 
-.orange {   
-background: #ff9f1a;
-}
- 
-.green {    
-background: #85ad00;
-}
- 
-.blue { 
-background: #0076ad;
+.size:first-child {
+  margin-left: 8%;
 }
 
-#TTSPContent{
-    display: none;
+.color {
+  margin-top: -2px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 2em;
+  width: 2em;
+  border-radius: 2px;
 }
-#TTSPicon1 >center:hover{
-    color: blue;
+
+.orange {
+  background: #ff9f1a;
 }
-#TTSPicon2 >center:hover{
-    color: blue;
+
+.green {
+  background: gray;
+}
+
+.blue {
+  background: chocolate;
+}
+
+#TTSPContent {
+  display: none;
+}
+#TTSPicon1 > center:hover {
+  color: blue;
+}
+#TTSPicon2 > center:hover {
+  color: blue;
 }
 #commentInput {
-    width: 300px;
-    height: 100px;
-    margin: 0 auto; /* Canh giữa theo chiều ngang */
-    display: block;
+  width: 300px;
+  height: 100px;
+  margin: 0 auto; /* Canh giữa theo chiều ngang */
+  display: block;
 }
 #commentInput::placeholder {
-    text-align: center; /* Canh giữa placeholder */
+  text-align: center; /* Canh giữa placeholder */
 }
-textarea:focus{
-    outline: none;
+textarea:focus {
+  outline: none;
 }
 
-#ContentBL{
-    display: none;
+#ContentBL {
+  display: none;
 }

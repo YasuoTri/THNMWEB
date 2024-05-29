@@ -37,6 +37,15 @@ $(document).ready(function () {
     },
   });
 });
-// $(document).ready(function () {
-//   $("#buttonClick").click();
-// });
+$("#loginForm").submit(function (event) {
+  event.preventDefault(); // Ngăn chặn hành động mặc định của form
+
+  // Kiểm tra xem form có hợp lệ không
+  if ($(this).valid()) {
+    // Nếu form hợp lệ, ẩn form và hiển thị thông báo đăng nhập thành công
+    alert("Đăng ký thành công");
+    setTimeout(function () {
+      window.history.back(); // Chuyển hướng người dùng về trang trước đó trong lịch sử duyệt
+    }, 2000);
+  }
+});

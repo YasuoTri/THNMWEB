@@ -1,0 +1,21 @@
+.imgbetween {
+  margin-top: 106px;
+}
+/* Đối với tin nhắn lỗi */
+.error {
+  color: red; /* Màu sắc cho tin nhắn lỗi */
+  font-size: 14px; /* Kích thước chữ của tin nhắn lỗi */
+}
+
+/* Đối với tin nhắn thành công */
+.valid {
+  color: green; /* Màu sắc cho tin nhắn thành công */
+  font-size: 14px; /* Kích thước chữ của tin nhắn thành công */
+}
+
+/* Đối với tin nhắn lỗi cụ thể */
+.error-message {
+  color: blue; /* Màu sắc cho tin nhắn lỗi cụ thể */
+  font-size: 14px; /* Kích thước chữ của tin nhắn lỗi cụ thể */
+  font-style: italic; /* Kiểu chữ của tin nhắn lỗi cụ thể */
+}
