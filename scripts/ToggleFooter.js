@@ -23,15 +23,4 @@ $(document).ready(function () {
     $("#ContenToggle4").slideToggle("slow");
   });
 });
-$(document).ready(function () {
-  function ShrinkToggle() {
-    if ($(window).width() < 767) {
-      $("#toggleButton").trigger("click");
-      $("#toggleButton1").trigger("click");
-      $("#toggleButton2").trigger("click");
-      $("#toggleButton3").trigger("click");
-      $("#toggleButton4").trigger("click");
-    }
-  }
-  $(window).resize(ShrinkToggle);
-});
+
